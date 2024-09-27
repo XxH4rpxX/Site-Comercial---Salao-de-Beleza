@@ -1,4 +1,4 @@
-Este projeto é um site informativo abrangente para um salão de beleza, desenvolvido ao longo de 4 meses como parte de um projeto integrador para nossa faculdade, a Descomplica Uniamérica. O site tem como objetivo fornecer uma plataforma informativa para os clientes aprenderem sobre os serviços, preços e promoções do salão.
+Este projeto é um site informativo abrangente para um salão de beleza, desenvolvido ao longo de 4 meses como parte de um projeto integrador para nossa faculdade, a Descomplica Uniamérica. O site tem como objetivo fornecer uma plataforma informativa para os clientes aprenderem sobre os serviços, preços e promoções do salão. Durante seu desenvolvimento, foram utilizadas as tecnologias: HTML, CSS e JavaScript.
 
 Os alunos presentes na construção deste projeto são:
 Gabriel Moreira Costa (PO),
