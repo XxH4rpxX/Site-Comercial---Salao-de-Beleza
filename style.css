@@ -1,1 +1,25 @@
 @charset "UTF-8";
+
+header{
+    height: 500px;
+    background-color: rgba(0, 0, 0, 1);
+    position: fixed;
+}
+
+/*#Agendamento {
+    background-color: ;
+}*/
+
+#Agendamento:hover {
+    background-color: rgb (0,0,0,0.5);
+}
+
+h3{
+    text-align: justify;
+    margin: 20px;
+    font-size: 16px;
+    max-width: 450px;
+    line-height: 1.5;
+    top: 200px; /* Distância do topo */
+    left: 200px; /* Distância da esquerda */
+}
