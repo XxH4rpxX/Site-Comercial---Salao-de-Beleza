@@ -1,25 +1,112 @@
-@charset "UTF-8";
-
+body{
+    margin: 0;
+    font-family: 'inter', sans-serif;
+}
 header{
-    height: 500px;
-    background-color: rgba(0, 0, 0, 1);
-    position: fixed;
+    height: 0 0 0 0;
+    background-color: #100F04;
+    position: center;
+    padding: 10px;
+    
 }
 
-/*#Agendamento {
-    background-color: ;
-}*/
 
-#Agendamento:hover {
+.Agendamento {
+    display: inline-block;
+    position: fixed;
+    background-color: #FFD30F;
+    right: 120px;
+    top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+#agendamentoTexto{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#agendamentoTexto:hover {
     background-color: rgb (0,0,0,0.5);
 }
 
-h3{
+#sobreTitulo{
+    position: fixed;
+    padding-bottom: 0px;
     text-align: justify;
-    margin: 20px;
-    font-size: 16px;
-    max-width: 450px;
+    font-size: 30px;
+    max-width: 220px;
+    line-height: 1.8;
+    background-color: #100F04;
+    color: #FFD30F;
     line-height: 1.5;
-    top: 200px; /* Distância do topo */
-    left: 200px; /* Distância da esquerda */
+    font-weight: bold;
+}
+
+#sobre-nos{
+    padding-top: 0px;
+    text-align: justify;
+    font-size: 15px;
+    max-width: 220px;
+    line-height: 1.8;
+    background-color: #100F04;
+    color: #FFFFFF;
+    line-height: 1.5;
+}
+
+#localizacaoTitulo{
+    padding: 0 0 0 0;
+    text-align: justify;
+    font-size: 30px;
+    max-width: 220px;
+    line-height: 1.8;
+    background-color: #605838;
+    color: #BEAF6A;
+    line-height: 1.5;
+    font-weight: bold; 
+}
+
+#localizacao{
+    padding: 0 0 0 0;
+    text-align: justify;
+    font-size: 18px;
+    max-width: 220px;
+    line-height: 1.8;
+    background-color: #605838;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#servicos{
+    padding: 0 0 0 0;
+    text-align: justify;
+    font-size: 18px;
+    max-width: 220px;
+    line-height: 1.8;
+    background-color: #605838;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#horario{
+    padding: 0 0 0 0;
+    text-align: justify;
+    font-size: 18px;
+    max-width: 220px;
+    line-height: 1.8;
+    background-color: #605838;
+    color: #FFFFFF;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+#horarioTexto{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #BEAF6A;
+    font-weight: bold;
 }
