@@ -1,17 +1,41 @@
 body{
-    margin: 0;
+    background-color: #100F04;
     font-family: 'inter', sans-serif;
+    margin: 0;
 }
 header{
+    justify-content: flex-end;
+    text-align: right;
     height: 0 0 0 0;
-    background-color: #100F04;
+    background-color: #000000;
     position: center;
     padding: 10px;
-    
+    min-height: 150px;
 }
 
+.agendamentoCentral {
+    background-color: #FFD30F;
+    color: black;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 16px;
+    margin: 0px 509.750px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/*
+.opcoesHeader {
 
-.Agendamento {
+}
+.opcoesHeader.a {
+
+}
+*/
+.opcoesHeader:hover {
+    color: rgb(0,0,0,0.5);
+}
+/* .Agendamento {
     display: inline-block;
     position: fixed;
     background-color: #FFD30F;
@@ -21,7 +45,7 @@ header{
     border-radius: 10px;
 }
 
-#agendamentoTexto{
+.Agendamento.a {
     font-family: sans-serif;
     text-decoration: none;
     color: black;
@@ -30,24 +54,39 @@ header{
 
 #agendamentoTexto:hover {
     background-color: rgb (0,0,0,0.5);
+} */
+
+.colunm{
+    float: left;
+    padding: 10px;
 }
 
-#sobreTitulo{
-    position: fixed;
-    padding-bottom: 0px;
-    text-align: justify;
+.colunm.side{
+    width: 25%;
+}
+
+.colunm.image{
+    width: 20%;
+    height: 10%;
+    border-radius: 5%;
+    
+}
+
+.Sobre_Titulo{
+    text-align: center;
+    padding: 0;
     font-size: 30px;
     max-width: 220px;
     line-height: 1.8;
     background-color: #100F04;
     color: #FFD30F;
-    line-height: 1.5;
     font-weight: bold;
 }
 
-#sobre-nos{
-    padding-top: 0px;
-    text-align: justify;
+.Sobre_Texto{
+    justify-content: flex-end;
+    text-align: right;
+    padding: 0;
     font-size: 15px;
     max-width: 220px;
     line-height: 1.8;
@@ -56,9 +95,13 @@ header{
     line-height: 1.5;
 }
 
-#localizacaoTitulo{
+.div_localizacao{
+    background-color: #605838;
+}
+
+.localizacao_Titulo{
     padding: 0 0 0 0;
-    text-align: justify;
+    text-align: center;
     font-size: 30px;
     max-width: 220px;
     line-height: 1.8;
@@ -68,7 +111,7 @@ header{
     font-weight: bold; 
 }
 
-#localizacao{
+.Localizacao_Texto{
     padding: 0 0 0 0;
     text-align: justify;
     font-size: 18px;
@@ -80,7 +123,7 @@ header{
     line-height: 1.5;
 }
 
-#servicos{
+.Servicos{
     padding: 0 0 0 0;
     text-align: justify;
     font-size: 18px;
@@ -92,21 +135,24 @@ header{
     line-height: 1.5;
 }
 
-#horario{
+.Horario_Titulo{
     padding: 0 0 0 0;
-    text-align: justify;
-    font-size: 18px;
-    max-width: 220px;
+    text-align: left;
+    font-size: 25px;
+    max-width: 300px;
     line-height: 1.8;
-    background-color: #605838;
     color: #FFFFFF;
-    font-weight: bold;
     line-height: 1.5;
 }
 
-#horarioTexto{
+.Horario_Texto{
     font-family: sans-serif;
     text-decoration: none;
     color: #BEAF6A;
     font-weight: bold;
+}
+
+.navbar{
+    position: sticky;
+    top: 0
 }

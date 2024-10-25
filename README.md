@@ -5,4 +5,5 @@ Gabriel Moreira Costa (PO),
 Bruno Gabriel Habitzreuter (Scrum Master),
 Mateus Melo Cantero,
 João Victor Navarqui de Mello,
-Kristhian dos Santos Magalhães.
+Kristhian dos Santos Magalhães,
+João Pedro Rodrigues de Lima.
