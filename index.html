@@ -12,69 +12,103 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
-
 </head>
 
 <body>
-
     <nav>
         <li>
-            <a href="https://wa.me/5545988250217?text=Quero%20fazer%20um%20agendamento" target="_blank"
-            Title="Agende Seu Atendimento Conosco" id="agendamento">AGENDAMENTO</a>
-            <a href="#">CONTATO</a>
-            <a href="#">HORÁRIO</a>
-            <a href="#">SOBRE NÓS</a>
-            <a href="#">LOCALIZAÇÃO</a>
-            <a href="#">SERVIÇOS</a>
+            <a href="https://wa.me/5545988250217?text=Olá,%20tudo%20bem?%20Gostaria%20de%20fazer%20um%20agendamento." target="_blank"
+                Title="Agende Seu Atendimento Conosco" id="agendamento">AGENDAMENTO</a>
+            <a href="#contato">CONTATO</a>
+            <a href="#horario">HORÁRIO</a>
+            <a href="#localizacao">LOCALIZAÇÃO</a>
+            <a href="#servicos">SERVIÇOS</a>
+            <a href="#sobre">SOBRE NÓS</a>
+            <a href="#inicio">INICIO</a>
         </li>
     </nav>
 
-    <header>
-        <section class="Segunda_Secao">
-            <p id="texto1">Viva a experiência de ser Golden.</p>
+    <header >
+        <section id="inicio" class="Segunda_Secao">
+            <p class="lema1">Viva a experiência de ser Golden.</p>
 
-            <p id="texto2">Faça um agendamento ainda hoje.</p>
+            <p class="lema2">Faça um agendamento ainda hoje.</p>
 
             <a href="https://wa.me/5545988250217?text=Quero%20fazer%20um%20agendamento"
                 class="agendamentoCentral">CLIQUE AQUI PARA AGENDAR</a>
         </section>
     </header>
 
-    <section class="Tercerira_Secao">
-        <article class="colunm image">
-            <img src="imagens/foto_do_salao_por_drento.jpg" alt="imagem do salao">
+    <section id="sobre" class="Terceira_Secao">
+        <article class="column left">
+            <img src="imagens/interior.jpg" alt="imagem interna do salao" title="Imagem do interior">
         </article>
 
-        <article class="column side">
-
-            <h1 class="Sobre_Titulo" style="margin: 0;" href="#sobre">Sobre Nós</h1>
-
+        <article class="column right">
+            <h1 section class="Sobre_Titulo" style="margin: 0;">Sobre Nós</h1>
             <p class="Sobre_Texto">Salão de Beleza e Estética Golden foi fundado em 200X e é um refúgio de beleza e
-                bem-estar.
-                Nossa missão é proporcionar uma experiência única e satisfatória, com uma ampla gama de tratamentos que
-                realçam a beleza de cada cliente. Venha descobrir o que nos torna a escolha perfeita para você!
-            </p>
-
+                bem-estar. Nossa missão é proporcionar uma experiência única e satisfatória, com uma ampla gama de
+                tratamentos que realçam a beleza de cada cliente. Venha descobrir o que nos torna a escolha perfeita
+                para você!</p>
         </article>
-
     </section>
 
-    <div class"Servicos" href="#servicos">Nossos Serviços</div>
+    <section id="servicos" class="Quarta_Secao">
+        <article class="Servicos_Titulo" href="#servicos">Nossos Serviços</artcile>
 
-    <div class="div_localizacao">
-        <p id="Localizacao_Titulo" href="#localizacao">Como Chegar</p>
+        <article class="slider">
+            <article class="slider-content">
+                <img src="imagens/servicos/imagem1.jpg" alt="Serviço 1" class="slider-image">
+                <img src="imagens/servicos/imagem2.jpg" alt="Serviço 2" class="slider-image">
+                <img src="imagens/servicos/imagem3.jpg" alt="Serviço 3" class="slider-image">
+                <img src="imagens/servicos/imagem4.jpg" alt="Serviço 4" class="slider-image">
+                <img src="imagens/servicos/imagem5.jpg" alt="Serviço 5" class="slider-image">
+            </article>
+            <button class="arrow left" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="arrow right" onclick="moveSlide(1)">&#10095;</button>
+        </article>
+    </section>
 
-        <p id="Localizacao_Texto">Aprenda a chegar em nosso espaço para ter uma ótima experiência.
-            Contamos com localização privilegiada e com ampla estrutura.</p>
-    </div>
+    <section id="localizacao" class="Quinta_Secao">
 
+        <article class="column left">
+            <img src="imagens/localização logo.png" alt="">
+        </article>
 
-    <div id="div_horario">
-        <p id="Horario_Titulo" href="#horario">Horário de Funcionamento</p>
+        <article class="column middle">
+            <p class="Localizacao_Titulo_1">LOCALIZAÇÃO</p>
+            <h1 class="Localizacao_Titulo_2">Como Chegar</h1>
+            <p class="Localizacao_Texto">Aprenda a chegar em nosso espaço para ter uma ótima experiência. Contamos com localização privilegiada e com ampla estrutura.</p>
+        </article>
+    
+        <article class="column right">
+            <a href="https://www.google.com/maps/place/R.+Mal.+Floriano+Peixoto,+1751+-+Centro,+Foz+do+Iguaçu+-+PR,+85851-020/@-25.5386481,-54.5858753,17z/data=!3m1!4b1!4m6!3m5!1s0x94f69049410d13c5:0x385b72701fdf89f0!8m2!3d-25.538653!4d-54.583295!16s%2Fg%2F11gfhhgybq?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+            <img src="imagens/mapa.png" alt="Descrição da imagem" title="Como Chegar">
+         </a>
+        </article>
+    </section>
 
-        <p id="Horario_Texto">Consulte nosso horário de funcionamento e marque o atendimento no salão feito para você.
-        </p>
-    </div>
+    <section id="horario" class="Sexta_Secao">
+
+        <article class="column left">
+            <img src="imagens/relogio.png" alt="relógio logo">
+        </article>
+
+        <article class="column middle">
+            <p class="Horario_Titulo">Horário de Funcionamento</p>
+
+            <img src="imagens/logo calendario.png" alt="horario de funcionamento">
+        </article>
+
+        <artice class="column right">
+            <p class="Horario_Texto">Consulte nosso horário de funcionamento e marque o atendimento no salão feito para
+                você.
+            </p>
+        </article>
+    </section>
+
+    <section id="contato" class="Setima Secao">
+    </section>
 
     <script src="javascript/index.js"></script>
 </body>
