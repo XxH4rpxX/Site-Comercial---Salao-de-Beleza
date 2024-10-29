@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    margin-top: 60px;
+    margin-top: 40px;
     background-color: #100F04;
     font-family: 'inter', sans-serif;
 
@@ -10,7 +10,7 @@ body {
 header {
     justify-content: flex-end;
     text-align: right;
-    height: 0 0 0 0;
+    height: 700px;
     background-color: #000000;
     position: center;
     padding: 0px;
@@ -20,13 +20,52 @@ header {
 nav {
     position: fixed;
     top: 0; /*fica ao topo da tela*/
-    height: 60px;
+    height: 100px;
     width: 100%;
     overflow: hidden;
+    align-items: center;
     background-color: black;
     padding: 0 0 0 0;
     z-index: 1000; /* Garante que a barra fique acima de outros elementos */
 }
+
+#Insta-icon{
+
+
+    
+    
+    }
+
+#Face-icon {
+   
+
+}
+
+
+
+#Insta-icon:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+
+    
+}
+
+#Face-icon:hover{
+    
+    background-color: white;
+    color: black;
+    
+    border-radius: 10px;
+}
+
+
+
+
+#espacamento-nav-bar{
+    height: 60px;
+}
+
 
 .navbar {
     position: sticky;
@@ -37,22 +76,29 @@ nav a {
     display: block;
     float: right;
     text-decoration: none;
-    color: yellow;
+    color: #FFD30F;
     text-align: center;
-    padding: 15px 15px;
+    margin-top: 20px;
+    padding: 15px 15px 15px 15px;
     margin-right: 20px;
+    transform: translate(-150px, 5px);
 }
 
 nav a:hover {
     background-color: white;
     color: black;
+    border-radius: 10px;
+    
 }
 
 #agendamento {
-    border-radius: 8px;
-    padding: 15px 15px;
-    background-color: yellow;
+    margin-top: 20px;
+    border-radius: 7px;
+    transform: translate(-150px, 4.2px);
+     padding: 15px 15px;
+    background-color: #FFD30F;
     color: black;
+    
 }
 
 #agendamento:hover {
@@ -140,7 +186,7 @@ nav a:hover {
 }
 
 .slider img {
-    width: 300px;
+    width: 200px;
     height: auto;
     border-radius: 15px;
     margin: 0 20px;
@@ -195,7 +241,7 @@ nav a:hover {
     text-align: justify;
     font-size: 20px;
     max-width: 70%;
-    line-height: 1.8;
+    line-height: 1.4;
     background-color: #605838;
     color: #FFFFFF;
     font-weight: bold;
@@ -248,15 +294,25 @@ nav a:hover {
 .Terceira_Secao .column.left {
     flex: 0 0 70%;
     float: left;
+    
+}
+
+#ImgInterna{
+
+height: 100%;
+
 }
 
 .Terceira_Secao .column.right {
-    flex: 0 0 25%;
+    
     float: right;
+    padding: 15px;
+    transform: translate(-30px, 0px)
+
 }
 
 .Terceira_Secao .column.left img {
-    width: 100%; /*define a largura da imagem em 100% da coluna*/
+    width: 90%; /*define a largura da imagem em 100% da coluna*/
     height: auto; /*mantem a proporção da imagem*/
     max-width: 100%; /*garante que a imagem não ultrapasse a largura da coluna*/
     display: block; /*remove o espaço abaixo da imagem*/
@@ -282,20 +338,25 @@ nav a:hover {
 }
 
 .Quinta_Secao .column.left img{
-    width: 100%;
+    width: 80%;
     height: auto;
     max-width: 100%;
     display: block;
     margin: 0 auto 0;
     border-radius: 15px;
+    transform: translate(130px, 0px);
 }
 
 .Quinta_Secao .column.middle {
     flex: 0 0 30%;
+    font-size:20px;
+
+
 }
 
 .Quinta_Secao .column.right {
-    flex: 0 0 60%;
+    flex: 0 0 40%;
+    transform: translate(-100px, 0px);
 }
 
 .Quinta_Secao .column.right img {
@@ -324,6 +385,7 @@ nav a:hover {
     display: block;
     margin: 0;
     border-radius: 15px;
+  
 }
 
 .Sexta_Secao .column.middle {
@@ -345,4 +407,102 @@ nav a:hover {
     float: right;
     padding: 0;
     margin: 300px 0 0 0;
+}
+
+.golden_sem_Fundo {
+
+    height: 100px;
+    opacity: 90%;
+    transform: translate(0px, -200px);
+   
+
+}
+
+.Formulario {
+
+    transform: translate(70px, -200px);
+    display: flex;
+    flex-direction: column; 
+    max-width: 400px; 
+    padding: 50px;
+ 
+    
+}
+
+
+form label {
+    
+    
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: lighter;
+    color:white;
+    font-size: 25px;
+}
+
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+form button {
+    transform: translate(700px, -120px);
+    padding: 10px 20px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 150px;
+    height: 60px;
+}
+
+form button:hover {
+    background-color: yellow;
+}
+
+.contate-nos{
+    transform: translate(710px, 250px);
+    font-weight: lighter;
+    font-size: 25px;
+    
+    
+
+}
+.contatenos:hover {
+    color: yellow;
+}
+
+.contate-nos:visited {
+    color:white;
+}
+
+.contate-nos:active{
+
+    color:yellow;
+}
+
+
+.feedback {
+    transform: translate(650px, 250px);
+    color: white;
+    justify-content: center;  
+    align-items: center;
+    font-size: 20px;
+}
+ 
+#MailIcon {
+
+transform: translate(35px, 25px) ;
+height: 45px;
+
 }

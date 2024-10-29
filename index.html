@@ -17,6 +17,14 @@
 <body>
     <nav>
         <li>
+            <a target="_blank" href="">
+            <img id="Face-icon"   src="imagens/Facebook icon.png">
+        </a>
+
+             <a target="_blank" href="https://www.instagram.com/goldenbelezaestetica/">
+            <img id="Insta-icon"  src="imagens/insta icon.png"> </a>
+
+
             <a href="https://wa.me/5545988250217?text=Olá,%20tudo%20bem?%20Gostaria%20de%20fazer%20um%20agendamento." target="_blank"
                 Title="Agende Seu Atendimento Conosco" id="agendamento">AGENDAMENTO</a>
             <a href="#contato">CONTATO</a>
@@ -25,11 +33,19 @@
             <a href="#servicos">SERVIÇOS</a>
             <a href="#sobre">SOBRE NÓS</a>
             <a href="#inicio">INICIO</a>
+            <a ></a>
         </li>
     </nav>
 
+    <div id="espacamento-nav-bar"></div>
+
     <header >
         <section id="inicio" class="Segunda_Secao">
+            
+            <article id= "Img_Golden" class="golden_sem_Fundo">
+                <img src="imagens/goden sem fundo.png" alt="golden sem fundo">
+            </article>
+           
             <p class="lema1">Viva a experiência de ser Golden.</p>
 
             <p class="lema2">Faça um agendamento ainda hoje.</p>
@@ -37,6 +53,8 @@
             <a href="https://wa.me/5545988250217?text=Quero%20fazer%20um%20agendamento"
                 class="agendamentoCentral">CLIQUE AQUI PARA AGENDAR</a>
         </section>
+
+        
     </header>
 
     <section id="sobre" class="Terceira_Secao">
@@ -106,11 +124,53 @@
             </p>
         </article>
     </section>
+    
+    <section class="Formulario">
+        
+        <section id="contate_nos" class="contate-nos">
+            <img id="MailIcon" src ="imagens/mail icon.png" > 
+            
+            <a href="mailto:joaozinho@hotmail.com"><p >contate-nos</p></a>
+            
+        </section>
+            
+            
+            <section id=" mensagem feedback" class="feedback"  >
+            
+          
+
+            <pre>
+ Nos envie um feedback
+      via e-mail!
+            </pre>
+            
+        </section>
+        
+            <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" name="sobrenome" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    
+    </section>
 
     <section id="contato" class="Setima Secao">
     </section>
 
     <script src="javascript/index.js"></script>
+
+    
+
 </body>
 
 </html>
