@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salão Golden Beleza e Estéstica</title>
     <link rel="stylesheet" href="style.css">
-
+<link rel="icon" href="/favicon.png" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,23 +17,26 @@
 <body>
     <nav>
         <li>
-            <a target="_blank" href="">
-            <img id="Face-icon"   src="imagens/Facebook icon.png">
-        </a>
+           <img id="logoNAV" src="imagens/goden sem fundo.png">
+            <div class="">
+                <a target="_blank" href="">
+                    <img id="Face-icon"   src="imagens/Facebook icon.png">
+                </a>
 
-             <a target="_blank" href="https://www.instagram.com/goldenbelezaestetica/">
-            <img id="Insta-icon"  src="imagens/insta icon.png"> </a>
+                <a target="_blank" href="https://www.instagram.com/goldenbelezaestetica/">
+                    <img id="Insta-icon"  src="imagens/insta icon.png"> 
+                </a>
 
-
-            <a href="https://wa.me/5545988250217?text=Olá,%20tudo%20bem?%20Gostaria%20de%20fazer%20um%20agendamento." target="_blank"
-                Title="Agende Seu Atendimento Conosco" id="agendamento">AGENDAMENTO</a>
-            <a href="#contato">CONTATO</a>
-            <a href="#horario">HORÁRIO</a>
-            <a href="#localizacao">LOCALIZAÇÃO</a>
-            <a href="#servicos">SERVIÇOS</a>
-            <a href="#sobre">SOBRE NÓS</a>
-            <a href="#inicio">INICIO</a>
-            <a ></a>
+                    
+                <a href="https://wa.me/5545988250217?text=Olá,%20tudo%20bem?%20Gostaria%20de%20fazer%20um%20agendamento." target="_blank"
+                    Title="Agende Seu Atendimento Conosco" id="agendamento">AGENDAMENTO</a>
+                <a href="#contato">CONTATO</a>
+                <a href="#horario">HORÁRIO</a>
+                <a href="#localizacao">LOCALIZAÇÃO</a>
+                <a href="#servicos">SERVIÇOS</a>
+                <a href="#sobre">SOBRE NÓS</a>
+                <a href="#inicio">INICIO</a>
+            <div>
         </li>
     </nav>
 
@@ -51,7 +54,7 @@
             <p class="lema2">Faça um agendamento ainda hoje.</p>
 
             <a href="https://wa.me/5545988250217?text=Quero%20fazer%20um%20agendamento"
-                class="agendamentoCentral">CLIQUE AQUI PARA AGENDAR</a>
+                class="Botao_Central">CLIQUE AQUI PARA AGENDAR</a>
         </section>
 
         
@@ -59,7 +62,7 @@
 
     <section id="sobre" class="Terceira_Secao">
         <article class="column left">
-            <img src="imagens/interior.jpg" alt="imagem interna do salao" title="Imagem do interior">
+            <img id="ImgInterna"src="imagens/interior.jpg" alt="imagem interna do salao" title="Imagem do interior">
         </article>
 
         <article class="column right">
@@ -72,6 +75,8 @@
     </section>
 
     <section id="servicos" class="Quarta_Secao">
+        <butto class="Botao_Central">Serviços</button>
+        
         <article class="Servicos_Titulo" href="#servicos">Nossos Serviços</artcile>
 
         <article class="slider">
@@ -125,26 +130,21 @@
         </article>
     </section>
     
-    <section class="Formulario">
+    <section id="contato" class="Setima_Secao">
         
-        <section id="contate_nos" class="contate-nos">
+        <article class="Contate-nos">
             <img id="MailIcon" src ="imagens/mail icon.png" > 
             
             <a href="mailto:joaozinho@hotmail.com"><p >contate-nos</p></a>
             
-        </section>
-            
-            
-            <section id=" mensagem feedback" class="feedback"  >
-            
-          
-
+        </article>
+        
+            <article id=" mensagem feedback" class="feedback"  >
             <pre>
  Nos envie um feedback
       via e-mail!
             </pre>
-            
-        </section>
+        </article>
         
             <form>
             <label for="nome">Nome:</label>
@@ -162,9 +162,6 @@
             <button type="submit">Enviar</button>
         </form>
     
-    </section>
-
-    <section id="contato" class="Setima Secao">
     </section>
 
     <script src="javascript/index.js"></script>
