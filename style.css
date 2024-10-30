@@ -82,6 +82,11 @@ transform: translate(0px, -5px) ;
     top: 0
 }
 
+.flex-right{
+    margin-left: auto;
+    height: 100px;
+}
+
 li{
     display: flex;
 }
@@ -171,7 +176,7 @@ nav a:hover {
     justify-content: flex-end;
     text-align: justify;
     padding: 0;
-    font-size: 13px;
+    font-size: 19px;
     max-width: 100%;
     line-height: 1.8;
     background-color: #100F04;
@@ -228,11 +233,16 @@ nav a:hover {
     right: 10px;
 }
 
+#icone-localizacao{
+    margin-top: 18px;
+    margin-left: 60px;
+}
+
 .Localizacao_Titulo_1 {
     margin: 0;
     padding: 0;
     text-align: left;
-    font-size: 13px;
+    font-size: 15px;
     max-width: 100%;
     line-height: 1.8;
     background-color: #605838;
@@ -243,7 +253,7 @@ nav a:hover {
     margin: 0;
     padding: 0;
     text-align: justify;
-    font-size: 25px;
+    font-size: 27px;
     max-width: 100%;
     line-height: 1.8;
     background-color: #605838;
@@ -256,7 +266,7 @@ nav a:hover {
     padding: 0;
     text-align: justify;
     justify-content: center;
-    font-size: 15px;
+    font-size: 18px;
     max-width: 70%;
     line-height: 1.8;
     background-color: #605838;
@@ -264,9 +274,14 @@ nav a:hover {
     font-weight: bold;
 }
 
+#icone-relogio{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
 .Horario_Titulo {
     margin: 0;
-    padding: 10px 0 100px 0;
+    padding: 40px 0 100px 0;
     text-align:  center;
     font-size: 30px;
     max-width: 100%;
