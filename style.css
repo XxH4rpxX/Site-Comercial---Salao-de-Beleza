@@ -112,7 +112,7 @@ nav a:hover {
 #agendamento {
     margin-top: 25px;
     border-radius: 7px;
-     padding: 15px 15px;
+    padding: 15px 15px;
     background-color: #FFD30F;
     color: black;
     font-weight: bold;
@@ -560,4 +560,64 @@ form button:hover {
     background-color: yellow;
 }
 
+footer { 
+    background-color: black;
     
+    display: flex;
+    align-items: center;
+}
+
+.logoRodape {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logoRodape img {
+    width: 300px; 
+    height: auto; 
+    margin-left: 40px; 
+}
+
+#localizacaoFooter {
+    color: #FFD30F;
+    margin-left: 60px;
+    height: 100px;
+    font-weight: bold;
+}
+
+#enderecoFooter {
+    color: #FFD30F;
+    margin-left: -90px;
+    height: 10px;
+}
+
+#linksRodape {
+    color: #FFD30F;
+    font-weight: bold;
+    height: 100px;
+    margin-left: 200px;
+}
+
+#agendamentoRodape {
+    text-decoration: none;
+    color: #FFD30F;
+    margin-left: -104px;
+    height: 0px;
+}
+
+#redesSociaisFooter {
+    color: #FFD30F;
+    margin-left: 150px;
+    height: 100px;
+    font-weight: bold;
+}
+
+#logoInstagramRodape {
+    width: 25px;
+    margin-left: -100px;
+}
+
+#logoFacebookRodape {
+    width: 30px;
+    margin-left: -50px;
+}
