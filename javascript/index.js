@@ -10,7 +10,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 let currentIndex = 0;
 const images = document.querySelectorAll('.slider-image');
-const totalImages = images.length;
+const totalImages = 7;
 
 // Atualiza a posição do slider
 function updateSlider() {
