@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Salão Golden Beleza e Estéstica</title>
     <link rel="stylesheet" href="style.css">
-<link rel="icon" href="/favicon.png" type="image/png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,14 +17,17 @@
 <body>
     <nav>
         <li>
-           <img id="logoNAV" src="imagens/goden sem fundo.png">
-            <div class="">
+            <div>
+             <img id="logoNAV" src="imagens/golden sem fundo.png">
+            </div>
+
+            <div class="flex-right">
                 <a target="_blank" href="">
                     <img id="Face-icon"   src="imagens/Facebook icon.png">
                 </a>
 
                 <a target="_blank" href="https://www.instagram.com/goldenbelezaestetica/">
-                    <img id="Insta-icon"  src="imagens/insta icon.png"> 
+                    <img id="Insta-icon"  src="imagens/insta logo.png"> 
                 </a>
 
                     
@@ -36,7 +39,7 @@
                 <a href="#servicos">SERVIÇOS</a>
                 <a href="#sobre">SOBRE NÓS</a>
                 <a href="#inicio">INICIO</a>
-            <div>
+            </div>
         </li>
     </nav>
 
@@ -44,25 +47,18 @@
 
     <header >
         <section id="inicio" class="Segunda_Secao">
-            
-            <article id= "Img_Golden" class="golden_sem_Fundo">
-                <img src="imagens/goden sem fundo.png" alt="golden sem fundo">
-            </article>
-           
             <p class="lema1">Viva a experiência de ser Golden.</p>
 
             <p class="lema2">Faça um agendamento ainda hoje.</p>
 
             <a href="https://wa.me/5545988250217?text=Quero%20fazer%20um%20agendamento"
-                class="Botao_Central">CLIQUE AQUI PARA AGENDAR</a>
+                class="Botao_Central" rel="_blank">CLIQUE AQUI PARA AGENDAR</a>
         </section>
-
-        
     </header>
 
     <section id="sobre" class="Terceira_Secao">
         <article class="column left">
-            <img id="ImgInterna"src="imagens/interior.jpg" alt="imagem interna do salao" title="Imagem do interior">
+            <img src="imagens/interior.jpg" alt="imagem interna do salao" title="Imagem do interior">
         </article>
 
         <article class="column right">
@@ -75,9 +71,10 @@
     </section>
 
     <section id="servicos" class="Quarta_Secao">
-        <butto class="Botao_Central">Serviços</button>
-        
-        <article class="Servicos_Titulo" href="#servicos">Nossos Serviços</artcile>
+
+    <article class="Servicos_Titulo" href="#servicos">Nossos Serviços
+             <br>
+            <a href="servicos.html" class="Botao_Central">Veja Nossos Serviços</a></article>
 
         <article class="slider">
             <article class="slider-content">
@@ -129,45 +126,40 @@
             </p>
         </article>
     </section>
-    
+
     <section id="contato" class="Setima_Secao">
         
-        <article class="Contate-nos">
-            <img id="MailIcon" src ="imagens/mail icon.png" > 
-            
-            <a href="mailto:joaozinho@hotmail.com"><p >contate-nos</p></a>
-            
-        </article>
-        
-            <article id=" mensagem feedback" class="feedback"  >
-            <pre>
- Nos envie um feedback
-      via e-mail!
-            </pre>
-        </article>
-        
-            <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
+            <article class="column left">
+                <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" id="sobrenome" name="sobrenome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+                </form>
+            </article>
 
-            <label for="sobrenome">Sobrenome:</label>
-            <input type="text" id="sobrenome" name="sobrenome" required>
+            <article class="column right">
+                <img id="MailIcon" src ="imagens/mail icon.png" > 
+                <br>
+               <p class="Contate-nos">Contate-nos</p>
+               <br>  
+                <pre class="Contate-nos">
+     Nos envie um feedback
+          via e-mail!
+                </pre>
+            </article>
             
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            
 
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
-
-            <button type="submit">Enviar</button>
-        </form>
-    
     </section>
 
     <script src="javascript/index.js"></script>
-
-    
-
 </body>
 
 </html>
