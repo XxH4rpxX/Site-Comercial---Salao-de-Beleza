@@ -502,28 +502,6 @@ video {
     justify-content: center;
 }
 
-.cu{
-    background-color: #f1f1f1;
-    border: 1px solid yellow;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    width: 200px;
-}
-
-.cu-header {
-    padding: 10px;
-    cursor: pointer;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 18px;
-    background-color: yellow;
-}
-.cu-content {
-    padding: 0 10px;
-    display: none; 
-    overflow: hidden;
-}
 
 form label {
     margin: 0 auto;

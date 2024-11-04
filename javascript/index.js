@@ -36,22 +36,3 @@ updateSlider();
 document.querySelector('.arrow-left').addEventListener('click', () => moveSlide(-1));
 document.querySelector('.arrow-right').addEventListener('click', () => moveSlide(1));
 
-
-const Limpezas = document.querySelectorAll('.cu-header');
-
-        Limpezas.forEach(header => {
-            header.addEventListener('click', function() {
-                // Toggle a classe "active" para alterar o estilo se necessário
-                this.classList.toggle('active');
-                
-                // Obtenha o conteúdo do acordeão
-                const content = this.nextElementSibling;
-
-                // Altere o display entre 'block' e 'none'
-                if (content.style.display === 'block') {
-                    content.style.display = 'none';
-                } else {
-                    content.style.display = 'block';
-                }
-            });
-        });
